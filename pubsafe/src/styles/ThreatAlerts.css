@@ -1,0 +1,36 @@
+
+.alert-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .alert-item {
+    background-color: #ffffff;
+    border-left: 5px solid #ff0000; /* Red border */
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    color: black;
+  }
+  
+  .alert-item:hover {
+    transform: translateX(5px);
+  }
+  
+  .alert-type {
+    font-weight: bold;
+    color: #ff0000; /* Red text for emphasis */
+  }
+  
+  .no-alerts-message {
+    color: #999;
+    font-style: italic;
+  }
+  
+  .heading {
+    color: #ff0000; /* Red heading */
+    margin-bottom: 1rem;
+  }
+  
